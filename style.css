@@ -238,7 +238,12 @@
     min-height: 400px;
   }
   
-  .react-calc {
+  .project-3-tbd {
+    background-image: url(Images/ashlin-boston-library.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 400px;
     
   }
   
@@ -288,5 +293,14 @@
   
   /* TODO: add media query for a max-width of 768px */
   @media screen and (max-width: 768px) {
-    
+    .flex-container {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+  .flex-item {
+      flex-basis: 100%;
+      min-height: auto; /* Let the height adjust automatically */
+      margin: 0.5em 0; /* Adjust margin to stack items vertically */
+    }
   }

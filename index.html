@@ -2,60 +2,74 @@
 <html lang="en">
 
 <head>
-<!-- TODO: add head content below -->
-<title>Ashlin Lee - Porfolio</title>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- TODO: add head content below -->
+    <title>Ashlin Lee - Porfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 
 <body>
-<!-- TODO: add body content below -->
+    <!-- TODO: add body content below -->
     <header>
         <h1>Ashlin Lee</h1>
-        
+
         <nav>
             <a href="#about">About</a>
             <a href="#portfolio">Portfolio</a>
             <a href="#contact">Contact</a>
         </nav>
-        
+
     </header>
-    
+
     <div class="hero-banner">
+        <img src="Images/Headshot-Ashlin.jpg" alt="Professional Headshot of Ashlin Lee"
+            style="height: 200px; position: relative; right: 340px;">
         <h2>Passion, Professionalism, and Strong Values</h2>
     </div>
 
-    <section id="about" class="page-section">
+    <section id="about" class="page-section page-wrapper">
         <h2>About</h2>
         <p>All the stuff that I will fill in later about my very impressive work experience</p>
 
     </section>
 
-    <section id="portfolio" class="page-section flex-container">
+    <section id="portfolio" class="page-section page-wrapper">
         <h2>Work</h2>
-        <div class="memory-game flex-item">
-            <h3>Memory Game</h3>
-            <p>Brief description of Project 1.</p>
-          </div>
-        
-        <div class="flex-item project-2-tbd">
-            <h3>Project 2 Title</h3>
-            <p>Brief description of Project 2.</p>
+
+        <div class="project-wrapper flex-container">
+            <a href="https://alectaber.github.io/memory-game/" target="_blank" class="flex-item memory-game">
+                <div>
+                    <h3>Memory Game</h3>
+                    <p>Brief description of Project 1.</p>
+                </div>
+            </a>
+
+            <a href="https://0x0800.github.io/2048-CUPCAKES/" target="_blank" class="flex-item project-2-tbd">
+                <div>
+                    <h3>Project 2 Title</h3>
+                    <p>This is just a placeholder while I create project 2. For now, enjoy this little game that someone
+                        else made.</p>
+                </div>
+            </a>
+
+            <a href="https://www.instagram.com/ashlin.lee/" target="_blank" class="flex-item project-3-tbd">
+                <div>
+                    <h3>Project 3 Title</h3>
+                    <p>Project 3 is also not complete yet. For now, here's my Instagram.</p>
+                </div>
+            </a>
         </div>
-        
-        <div class="flex-item">
-            <h3>Project 3 Title</h3>
-            <p>Brief description of Project 3.</p>
-        </div>
-        
     </section>
 
-    <footer id="contact">
+    <section id="contact" class="page-section page-wrapper contact">
         <h2>Contact</h2>
-        <p>Email: ashlinlee98@gmail.com</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/your-profile" target="_blank">https://www.linkedin.com/in/ashlinlee/</a></p>
-    </footer>
+        <address>
+            <a href="mailto:ashlinlee98@gmail.com">ashlinlee98@gmail.com</a>
+            <a href="https://www.linkedin.com/in/ashlinlee/" target="_blank">https://www.linkedin.com/in/ashlinlee/</a>
+            <a href="https://github.com/ashlinlee98" target="_blank">https://github.com/ashlinlee98</a>
+        </address>
+    </section>
 
 </body>
 
